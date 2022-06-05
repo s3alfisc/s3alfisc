@@ -15,12 +15,12 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-In my free time, I develop R packages that implement various inference procedures:
+In my free time, I develop R packages that implement various inference procedures for clustered errors:
 
-+ `fwildclusterboot` implements the fast wild cluster bootstrap algorithm as suggested in Roodman, MacKinnon, Nielsen & Webb for a range of regression packages in R. It also ports functionality from [WildBootTests.jl]() to R, e.g. the WRE bootstrap for instrumental variables.
++ `fwildclusterboot` implements the fast wild cluster bootstrap algorithm as suggested in [Roodman, MacKinnon, Nielsen & Webb](https://journals.sagepub.com/doi/abs/10.1177/1536867X19830877) for a range of regression packages in R. It also ports functionality from WildBootTests.jl to R, e.g. the WRE bootstrap for instrumental variables.
 
-+ `wildrwolf` utilizes `fwildclusterboot's` speed and implements the multiple-hypothesis correction as suggested by Romano & Wolf (2005) for regression objects from the `fixest` package. 
++ `wildrwolf` utilizes `fwildclusterboot's` speed and implements the multiple-hypothesis correction by Romano & Wolf (2005) - as implemented in the [rwolf](https://docs.iza.org/dp12845.pdf) Stata package - for regression objects from the `fixest` package. 
 
-+ `CRV3J` implements the Jackknive CRV3 estimator as suggested by MacKinnon, Nielsen & Webb (2022). 
++ `CRV3J` implements the Jackknive CRV3 estimator as suggested by [MacKinnon, Nielsen & Webb (2022)](https://arxiv.org/abs/2205.03288). 
 
 I hope to bring to bring the last packages two to CRAN by the end of the summer - if you'd like to help me get there, please don't hesitate to send me an email to alexander-fischer1801[at]t-online.de 😄 
