@@ -23,4 +23,4 @@ In my free time, I develop R packages that implement various inference procedure
 
 + `CRV3J` implements the **Jackknive CRV3 estimator** for clustered covariances as suggested by [MacKinnon, Nielsen & Webb (2022)](https://arxiv.org/abs/2205.03288). 
 
-I hope to bring to bring the last packages two to CRAN by the end of the summer - if you'd like to help me get there, please don't hesitate to send me an email to alexander-fischer1801[at]t-online.de 😄 
+I hope to bring to bring the last two packages to CRAN by the end of the summer - if you'd like to help me get there, please don't hesitate to send me an email at alexander-fischer1801[at]t-online.de 😄 
