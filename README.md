@@ -17,10 +17,10 @@ Here are some ideas to get you started:
 
 In my free time, I develop R packages that implement various inference procedures for clustered errors:
 
-+ `fwildclusterboot` implements the fast **wild cluster bootstrap** algorithm as suggested in [Roodman, MacKinnon, Nielsen & Webb](https://journals.sagepub.com/doi/abs/10.1177/1536867X19830877) for a range of regression packages in R. It also ports functionality from WildBootTests.jl to R, e.g. the WRE bootstrap for instrumental variables.
++ `fwildclusterboot` implements the fast **wild cluster bootstrap** algorithm as suggested in [Roodman, MacKinnon, Nielsen & Webb](https://journals.sagepub.com/doi/abs/10.1177/1536867X19830877) for a range of regression packages in R. It also ports functionality from [WildBootTests.jl](https://github.com/droodman/WildBootTests.jl) to R, e.g. the WRE bootstrap for instrumental variables.
 
 + `wildrwolf`implements the multiple-hypothesis correction by Romano & Wolf (2005) - as implemented in the [rwolf](https://docs.iza.org/dp12845.pdf) Stata package - for regression objects from the `fixest` package. Because it is build around `fwildclusterboot` and the wild (cluster) bootstrap, it is usually **very** fast. 
 
-+ `CRV3J` implements the **Jackknive CRV3 estimator** for clustered covariances as suggested by [MacKinnon, Nielsen & Webb (2022)](https://arxiv.org/abs/2205.03288). 
++ `summclust` and `CRV3J` implement the **Jackknive CRV3 estimator** for clustered covariances as suggested by [MacKinnon, Nielsen & Webb (2022)](https://arxiv.org/abs/2205.03288). `summclust` further computes a range of leverage measures for cluster robust inferences (as in the `[summclust](https://github.com/mattdwebb/summclust)` Stata package).
 
 I hope to bring to bring the last two packages to CRAN by the end of the summer - if you'd like to help me get there, please send me an email at alexander-fischer1801[at]t-online.de =) 
